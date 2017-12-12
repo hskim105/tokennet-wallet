@@ -14,7 +14,8 @@
 		"account_address": "Account Address",
 		"generator": "Generator",
 		"close": "Close",
-		"transaction_fee": "Transaction Fee"
+		"transaction_fee": "Transaction Fee",
+		"mfa": "Multi-Factor Authentication"
 	},
 	"header": {
 		"see_manual": "User Guide",

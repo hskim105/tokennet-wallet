@@ -45,6 +45,11 @@ export const postponeTimer = ( postpone ) => ( {
 	postpone: postpone,
 } );
 
+export const showMfaQRCode = ( $isShow ) => ( {
+	type: types.SHOW_MFA_QR_CODE,
+	isShow: $isShow,
+} );
+
 export const showTransactionConfirm = ( $isShow, $paymentData ) => ( {
 	type: types.SHOW_TRANSACTION_CONFIRM,
 	isShow: $isShow,

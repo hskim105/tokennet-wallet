@@ -14,7 +14,8 @@
 		"account_address": "계정 주소",
 		"generator": "생성하기",
 		"close": "닫기",
-		"transaction_fee": "이체 수수료"
+		"transaction_fee": "이체 수수료",
+		"mfa": "다중 인증"
 	},
 	"header": {
 		"see_manual": "사용자 가이드",

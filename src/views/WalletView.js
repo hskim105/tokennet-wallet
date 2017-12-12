@@ -9,6 +9,7 @@ import { connect } from "react-redux";
 import IconButton from 'components/IconButton';
 import SendIcon from 'assets/imgs/send-icon.png';
 import ReceiveIcon from 'assets/imgs/receive-icon.png';
+import MfaIcon from 'assets/imgs/mfa-icon.png';
 import pageview from 'utils/pageview';
 
 class WalletView extends Component {
@@ -43,6 +44,10 @@ class WalletView extends Component {
 									<IconButton to="/receive" label={ T.translate( 'common.receive' ) }
 												onClick={ () => this.props.postponeTimer( true ) }
 												image={ ReceiveIcon } iconRight/>
+
+									<IconButton to="/mfa" label={ T.translate( 'common.mfa' ) }
+												onClick={ () => this.props.postponeTimer( true ) }
+												image={ MfaIcon } iconRight/>			
 								</p>
 
 								<KeyDisplayer darkTheme/>

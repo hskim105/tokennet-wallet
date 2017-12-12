@@ -14,7 +14,8 @@
 		"account_address": "账户地址",
 		"generator": "生成器",
 		"close": "关闭",
-		"transaction_fee": "手续费"
+		"transaction_fee": "手续费",
+		"mfa": "多重認證"
 	},
 	"header": {
 		"see_manual": "请参阅完整手册",

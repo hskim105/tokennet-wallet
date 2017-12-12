@@ -30,7 +30,7 @@ import KeyGenerator from 'modal-popups/KeyGenerator'
 import TransactionConfirm from 'modal-popups/TransactionConfirm';
 import TransactionComplete from 'modal-popups/TransactionComplete';
 import RecordSeeds from 'modal-popups/RecordSeeds';
-
+import MfaView from './views/MfaView'; //TODO: Remove later. Added MFA view
 /*
 	Styles
  */
@@ -176,7 +176,7 @@ class App extends Component {
 				<Route path="/login" component={LoginView}/>
 				<Route path="/send" component={SendCoinView}/>
 				<Route path="/receive" component={ReceiveCoinView}/>
-
+				<Route path="/mfa" component={MfaView}/>
 				<div className="copyright">
 					BOS Platform Foundation 2017
 				</div>
